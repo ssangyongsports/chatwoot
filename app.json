@@ -50,7 +50,7 @@
   },
   "stack": "heroku-20",
   "image": "heroku/ruby",
-  "addons": [ "heroku-redis", "heroku-postgresql"],
+  "addons": ["heroku-postgresql"],
   "buildpacks": [
     {
       "url": "heroku/ruby"
